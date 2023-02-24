@@ -14,7 +14,7 @@ develop = false
 type = "git"
 url = "git@github.com:kokosoida/sample-subdir-packages.git"
 reference = "main"
-resolved_reference = "2e719d16f9cca8a7ffbb7a2a31c3a26173f1e2df"
+resolved_reference = "8f08cacc0fa7d5d1a55cc3293eba2883aeafe819"
 subdirectory = "lib_a"
 [[package]]
 name = "lib-b"
@@ -30,7 +30,7 @@ develop = false
 type = "git"
 url = "git@github.com:kokosoida/sample-subdir-packages.git"
 reference = "main"
-resolved_reference = "2e719d16f9cca8a7ffbb7a2a31c3a26173f1e2df"
+resolved_reference = "8f08cacc0fa7d5d1a55cc3293eba2883aeafe819"
 subdirectory = "lib_b"
 [metadata]
 lock-version = "2.0"

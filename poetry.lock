@@ -14,7 +14,7 @@ develop = false
 type = "git"
 url = "git@github.com:kokosoida/sample-subdir-packages.git"
 reference = "main"
-resolved_reference = "8f08cacc0fa7d5d1a55cc3293eba2883aeafe819"
+resolved_reference = "52118f47f70f3276c098ae2c748024d22dfd83f6"
 subdirectory = "lib_a"
 [[package]]
 name = "lib-b"
@@ -30,9 +30,25 @@ develop = false
 type = "git"
 url = "git@github.com:kokosoida/sample-subdir-packages.git"
 reference = "main"
-resolved_reference = "8f08cacc0fa7d5d1a55cc3293eba2883aeafe819"
+resolved_reference = "52118f47f70f3276c098ae2c748024d22dfd83f6"
 subdirectory = "lib_b"
+[[package]]
+name = "lib-c"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.8"
+files = []
+develop = false
+
+[package.source]
+type = "git"
+url = "git@github.com:kokosoida/sample-subdir-packages.git"
+reference = "main"
+resolved_reference = "52118f47f70f3276c098ae2c748024d22dfd83f6"
+subdirectory = "lib_c"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "df46d09079eb898efdcf54b4b0e064baa4b1615257a97d72f6cbc17e8bd526aa"
+content-hash = "87379f1f57b3130ba4536f397af08c6b338f244aea843b16e08c1afc974925c8"
